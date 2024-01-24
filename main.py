@@ -14,10 +14,10 @@ if detected is not None: # makes sure that it detected at least one
 		x, y, r = parameter[0], parameter[1], parameter[2] # setting x, y, and r to the respective parameters
 
 		# MAIN CIRCLE
-		cv2.circle(image, (x, y), r, (0, 255, 0), 2)
+		cv2.circle(image, (x, y), r, (0, 255, 0), 2) # args: image, coordinates, radius, color, stroke
 
 		# MID POINT
-		cv2.circle(image, (x, y), 1, (0, 0, 255), 3) # drawing a circle with a radius of one at same coordinates
+		cv2.circle(image, (x, y), 1, (0, 0, 255), 3) # drawing a circle with a radius of 1 (dot) at same coordinates
 
 		# WINDOW
 		cv2.imshow("Detected Circle", image) # creating window called Detected Circle that displays output image
