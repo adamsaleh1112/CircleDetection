@@ -20,7 +20,7 @@ if detected is not None: # makes sure that it detected at least one
 	# FOR PARAMETER IN CIRCLES
 	for parameter in circles[0, :]: # iterating through all circles' detected parameters
 
-		# X = 0, Y = 1, R = 2
+		# X = PARAM 0, Y = PARAM 1, R = PARAM 2
 		x, y, r = parameter[0], parameter[1], parameter[2] # setting x, y, and radius to the respective parameters
 
 		# DRAW CIRCLE RADIUS = R
