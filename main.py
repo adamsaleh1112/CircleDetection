@@ -1,5 +1,5 @@
-import numpy
-import cv2
+import numpy # importing numpy, an array library that allows video data to be stored in arrays
+import cv2 # importing opencv-python, an image processing library that allows functions such as blur, cropping, etc.
 
 image = cv2.imread("Can.jpg") # loads image
 bw = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) # converts it to grayscale
